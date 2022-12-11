@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+a{ 
+    text-decoration: none;
+    color: white
+}
+
+/* This is for CSS Code */
+
+nav {
+    background-color: #424242;
+    color: white;
+}
+.container-nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-nav {
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.list-nav {
+    display: flex;
+    padding: 0 100px;
+}
+.list-nav li{
+    padding: 0 30px;
+}
+
+.list-nav a:hover{
+    color: #EFEBE9;
+}
+
+
+.container-header{
+    text-align: center;
+    padding: 100px 0;
+    color: #37474F;
+}
+.container-header h1{
+    font-size: 100px;
+    padding-bottom: 36px;
+}
+.container-header span{
+    color: #FFEB3B;
+}
+.container-header h2{
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom: 36px;
+}
+.container {
+    padding: 100px;
+}
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #37474f;
+}
+.container-aboutme {
+    background-color: #EFEBE9;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-project{
+    text-align: center;
+}
+.image-wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.image-wrapper p{
+    padding-top: 30px;
+}
+
+.container-contactme{
+    text-align: center;
+    background-color: #EFEBE9;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 20px;
+    border: 1px solid #EFEBE9;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all 0.5s;
+    background-color: #FFEB3B;
+    border: none;
+    font-size: 14px;
+}
+button:hover{
+    background-color:#FFF59D;
+    cursor: pointer;
+}
+footer {
+    background-color: #78909C;
+    color: white;
+}
+.container-footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list li{
+    padding-top: 20px;
+}
