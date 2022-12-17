@@ -14,29 +14,43 @@ body {
 
 /* This is for CSS Code */
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 724px) {
     img{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
     .heading-nav{
         font-size: 20px;
     }
+    .list-nav{
+        font-size: 10px;
+        padding: 0;
+    }
+    .list-nav li{
+        padding: 0;
+        margin: 0 30px;
+    }
     
     .container-header h1{
-        font-size: 70px;
+        font-size: 50px;
     }
 
     .container-header h2{
         font-size: 40px;
+    }
+    .next {
+        right: 5%;
+    }
+    .prev {
+        left: 5%;
     }
     .form{
         width: 100%;
     }
 }
 
-@media (max-width: 670px) {
+@media screen and (max-width: 480px) {
 
     .list-nav {
         display: inline-block;
@@ -53,23 +67,32 @@ body {
         height: 100%;
     }
     .container-header h1{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .container-header h2{
         font-size: 20px;
     }
 
-    .image-wrapper {
-        flex-direction: column;
+    .image-container{
+        align-items: center;
     }
-    .image-wrapper div{
+    .image-container div{
         margin-bottom: 20px;
     }
-    .image-wrapper p{
+    .image-container p{
         padding-top: 0;
     }
-
+    .next {
+        right: -15%;
+    }
+    .prev {
+        left: -15%;
+    }
+    .dot{
+        height: 8px;
+        width: 8px;
+    }
     .form{
         width: 100%;
     }
@@ -79,7 +102,10 @@ body {
         flex-direction: column;
         align-items: center;
     }
-
+    .form-list{
+        margin: 100px auto;
+        padding: 100px 20px;
+    }
     .footer-list li{
         text-align: center;
     }
